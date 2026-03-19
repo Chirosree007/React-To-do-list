@@ -59,7 +59,7 @@ const Todo = () => {
                   settask(e.target.value)
                 }}/>
                 <input type="text" className='w-full lg:w-auto lg:flex-1 lg:text-xl sm:text-lg text-base border-zinc-800 border-2 px-4 py-2'
-                 placeholder='Enter Task Description'
+                 placeholder='Enter Task Description (optional)'
                  value={desc}
                  onChange={(e)=>{
                   setdesc(e.target.value)
